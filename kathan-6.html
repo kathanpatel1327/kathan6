@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <style>
+         div {
+             height: 200px; width: 200px; background-color: blue; color: black;transition: 3s;font-weight: bold; 
+         }
+         #Transform:hover { 
+            transform: translate(50px, 100px);
+
+            background-color: rgb(114, 177, 56);  
+         }
+         #Opacity:hover {
+            opacity: 0.5;
+         }
+         #Rotate:hover { 
+            -webkit-transform:rotate(360deg);
+            -moz-transform:rotate(360deg);
+            -ms-transform:rotate(360deg);
+            -o-transform:rotate(360deg);
+            transform:rotate(360deg);
+            background-color:rgb(235, 16, 16);
+            color:rgb(35, 226, 169); 
+         }
+         #Rotate3d:hover {
+            -webkit-transform:rotate3d(1,1,0,360deg);
+            -moz-transform:rotate3d(1,1,0,360deg);
+            -ms-transform:rotate3d(1,1,0,360deg);
+            -o-transform:rotate3d(1,1,0,360deg);
+            transform:rotate3d(1,1,0,360deg);
+            background-color: rgb(228, 52, 175);
+            color:rgb(10, 8, 9); 
+         }
+         #Scew:hover {
+            -webkit-transform:skew(45deg);
+            -moz-transform:skew(45deg);
+            -ms-transform:skew(45deg);
+            -o-transform:skew(45deg);
+            transform:skew(45deg);
+            background-color:rgb(198, 216, 36);
+            color:rgb(0, 255, 42); 
+         }
+         #Scale:hover {
+            -webkit-transform:scale(1.5,0.5);
+            -moz-transform:scale(1.5,0.5);
+            -ms-transform:scale(1.5,0.5);
+            -o-transform:scale(1.5,0.5);
+            transform:scale(1.5,0.5);
+            background-color:rgb(223, 113, 11);
+            color:rgb(62, 10, 182); 
+         }
+         #RGBA:hover {
+             background-color: rgba(128, 128, 0 , 0.8);
+         }
+         #BSHADOW:hover {
+             box-shadow: 3px 3px 30px grey;
+         }
+         #TSHADOW:hover {
+             text-shadow: 3px 3px 3px green;
+         }
+         #RADIUS:hover {
+             border-radius: 50%;
+         }
+         #OVERFLOW:hover {
+            overflow:auto;
+         }
+    </style>
+    <head>
+        <title>CSS HOVER</title>
+    </head>
+    <body>
+            <div id="Transform">Transform</div><hr/>
+            <div id="Scale">Scale</div><hr/>
+            <div id="Opacity">Opacity</div><hr/>
+            <div id="Rotate">Rotate</div><hr/>
+            <div id="Rotate3d">Rotate 3D</div><hr/>
+            <div id="Scew">Scew</div><hr/>
+            <div id="RGBA">RGBA</div><hr/>
+            <div id="BSHADOW">BSHADOW</div><hr/>
+            <div id="TSHADOW">TSHADOW</div><hr/>
+            <div id="RADIUS">RADIUS</div><hr/>
+            <div id="OVERFLOW"> OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW OVERFLOW</div><hr/>    
+    </body>
+</html>
